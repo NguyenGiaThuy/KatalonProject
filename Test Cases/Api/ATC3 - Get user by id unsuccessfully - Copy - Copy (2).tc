@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that GET method will not get user with invalid id</description>
+   <name>ATC3 - Get user by id unsuccessfully - Copy - Copy (2)</name>
+   <tag>Api</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d796337-637f-4312-808c-945666b950eb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7281b7ab-e6a9-41a0-9da8-bc7fe311e462</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>7281b7ab-e6a9-41a0-9da8-bc7fe311e462</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

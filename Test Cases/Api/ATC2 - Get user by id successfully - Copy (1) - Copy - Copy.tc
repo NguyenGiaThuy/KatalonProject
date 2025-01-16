@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the GET method with valid id will get user successfully.</description>
+   <name>ATC2 - Get user by id successfully - Copy (1) - Copy - Copy</name>
+   <tag>Api</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>220c45c2-a18c-41c5-8b4e-3522458cd650</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3506250-e446-4c10-9f0b-4c755c8125e5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>d3506250-e446-4c10-9f0b-4c755c8125e5</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

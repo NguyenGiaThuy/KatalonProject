@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ATS1 - GET method test suite" time="2.313" tests="3" failures="0" errors="0">
+   <testsuite name="ATS1 - GET method test suite" tests="3" failures="0" errors="0" time="2.313" skipped="0" timestamp="16-01-2025T09:10:07" hostname="thuy - thuy-Modern-14-B11MOU" id="Test Suites/Api/ATS1 - GET method test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_090957/Api/ATS1 - GET method test suite/20250116_090958"/>
+         <property name="logFiles" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_090957/Api/ATS1 - GET method test suite/20250116_090958/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thuy - thuy-Modern-14-B11MOU"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+      </properties>
+      <testcase name="Test Cases/Api/ATC1 - Get users list successfully" time="0.983" classname="Test Cases/Api/ATC1 - Get users list successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T09:10:07 - [TEST_CASE][PASSED] - Test Cases/Api/ATC1 - Get users list successfully: Test Cases/Api/ATC1 - Get users list successfully
+
+16-01-2025T09:10:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Api/Get Users List", ["pageNumber":pageNumber, "pageSize":pageSize])): Send request successfully
+
+16-01-2025T09:10:08 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_090957/Api/ATS1 - GET method test suite/20250116_090958/requests/main/0.har
+
+16-01-2025T09:10:08 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T09:10:08 - [TEST_STEP][PASSED] - assert getResponseStatusCode(response) == 200: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC1 - Get users list successfully" time="0.621" classname="Test Cases/Api/ATC1 - Get users list successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T09:10:08 - [TEST_CASE][PASSED] - Test Cases/Api/ATC1 - Get users list successfully: Test Cases/Api/ATC1 - Get users list successfully
+
+16-01-2025T09:10:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Api/Get Users List", ["pageNumber":pageNumber, "pageSize":pageSize])): Send request successfully
+
+16-01-2025T09:10:08 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_090957/Api/ATS1 - GET method test suite/20250116_090958/requests/main/1.har
+
+16-01-2025T09:10:08 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T09:10:08 - [TEST_STEP][PASSED] - assert getResponseStatusCode(response) == 200: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC1 - Get users list successfully" time="0.612" classname="Test Cases/Api/ATC1 - Get users list successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T09:10:08 - [TEST_CASE][PASSED] - Test Cases/Api/ATC1 - Get users list successfully: Test Cases/Api/ATC1 - Get users list successfully
+
+16-01-2025T09:10:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Api/Get Users List", ["pageNumber":pageNumber, "pageSize":pageSize])): Send request successfully
+
+16-01-2025T09:10:09 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_090957/Api/ATS1 - GET method test suite/20250116_090958/requests/main/2.har
+
+16-01-2025T09:10:09 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T09:10:09 - [TEST_STEP][PASSED] - assert getResponseStatusCode(response) == 200: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-01-2025T09:10:07 - [TEST_SUITE][PASSED] - ATS1 - GET method test suite: Test Cases/Api/ATC1 - Get users list successfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

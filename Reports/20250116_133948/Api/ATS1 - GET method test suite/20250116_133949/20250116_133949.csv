@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATS1 - GET method test suite,,,,16-01-2025 13:39:56,16-01-2025 13:40:00,4.382s,PASSED
+,,,,,,,
+Test Cases/Api/ATC1 - Get users list successfully,,Verify that the GET method gets users list successfully,Api,16-01-2025 13:39:56,16-01-2025 13:39:58,2.092s,PASSED
+"response = sendRequest(findTestObject(""Api/Get Users List"", [""pageNumber"":pageNumber, ""pageSize"":pageSize]))",,,,16-01-2025 13:39:56,16-01-2025 13:39:58,1.898s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,16-01-2025 13:39:58,16-01-2025 13:39:58,0.011s,PASSED
+,,,,,,,
+Test Cases/Api/ATC2 - Get user by id successfully,,Verify that the GET method with valid id will get user successfully.,Api,16-01-2025 13:39:58,16-01-2025 13:39:58,0.124s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":1]))",,,,16-01-2025 13:39:58,16-01-2025 13:39:58,0.085s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,16-01-2025 13:39:58,16-01-2025 13:39:58,0.003s,PASSED
+,,,,,,,
+Test Cases/Api/ATC2 - Get user by id successfully,,Verify that the GET method with valid id will get user successfully.,Api,16-01-2025 13:39:58,16-01-2025 13:39:58,0.106s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":1]))",,,,16-01-2025 13:39:58,16-01-2025 13:39:58,0.093s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,16-01-2025 13:39:58,16-01-2025 13:39:58,0.003s,PASSED
+,,,,,,,
+Test Cases/Api/ATC2 - Get user by id successfully,,Verify that the GET method with valid id will get user successfully.,Api,16-01-2025 13:39:58,16-01-2025 13:39:58,0.108s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":1]))",,,,16-01-2025 13:39:58,16-01-2025 13:39:58,0.091s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,16-01-2025 13:39:58,16-01-2025 13:39:58,0.002s,PASSED
+,,,,,,,
+Test Cases/Api/ATC3 - Get user by id unsuccessfully,,Verify that GET method will not get user with invalid id,Api,16-01-2025 13:39:58,16-01-2025 13:39:59,0.569s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":id]))",,,,16-01-2025 13:39:58,16-01-2025 13:39:59,0.532s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,16-01-2025 13:39:59,16-01-2025 13:39:59,0.005s,PASSED
+,,,,,,,
+Test Cases/Api/ATC3 - Get user by id unsuccessfully,,Verify that GET method will not get user with invalid id,Api,16-01-2025 13:39:59,16-01-2025 13:39:59,0.620s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":id]))",,,,16-01-2025 13:39:59,16-01-2025 13:39:59,0.602s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,16-01-2025 13:39:59,16-01-2025 13:39:59,0.003s,PASSED
+,,,,,,,
+Test Cases/Api/ATC3 - Get user by id unsuccessfully,,Verify that GET method will not get user with invalid id,Api,16-01-2025 13:39:59,16-01-2025 13:40:00,0.553s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":id]))",,,,16-01-2025 13:39:59,16-01-2025 13:40:00,0.533s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,16-01-2025 13:40:00,16-01-2025 13:40:00,0.004s,PASSED

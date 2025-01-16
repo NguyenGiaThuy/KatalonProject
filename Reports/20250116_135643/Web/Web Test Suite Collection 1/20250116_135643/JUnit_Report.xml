@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Web Test Suite Collection 1" time="164.625" tests="16" failures="0" errors="0">
+   <testsuite name="ATS1 - Login page test suite" tests="8" failures="0" errors="0" time="159.279" skipped="0" timestamp="16-01-2025T13:56:53" hostname="thuy - thuy-Modern-14-B11MOU" id="Test Suites/Web/ATS1 - Login page test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135643/Web/ATS1 - Login page test suite/20250116_135644"/>
+         <property name="logFiles" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135643/Web/ATS1 - Login page test suite/20250116_135644/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thuy - thuy-Modern-14-B11MOU"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Firefox 133.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="81445c90-453d-4672-9fa2-67d727dd7649"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy" time="19.947" classname="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:56:53 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy
+
+16-01-2025T13:56:53 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:56:54 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:56:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:57:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:04 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:57:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy (2)" time="18.538" classname="Test Cases/Web/WTC1 - Login user successfully - Copy (2)" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:57:13 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy (2): Test Cases/Web/WTC1 - Login user successfully - Copy (2)
+
+16-01-2025T13:57:13 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:13 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:57:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:57:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:26 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:57:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy" time="18.311" classname="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:57:32 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy - Copy
+
+16-01-2025T13:57:32 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:32 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:57:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:57:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:44 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:57:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1)" time="17.684" classname="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1)" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:57:50 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1): Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1)
+
+16-01-2025T13:57:50 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:50 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:57:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:58:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:02 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:58:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy" time="20.382" classname="Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:58:08 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy
+
+16-01-2025T13:58:08 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:08 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:58:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:58:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:58:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully" time="19.951" classname="Test Cases/Web/WTC1 - Login user successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:58:28 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully: Test Cases/Web/WTC1 - Login user successfully
+
+16-01-2025T13:58:28 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:28 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:58:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:58:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:41 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:58:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy" time="22.412" classname="Test Cases/Web/WTC1 - Login user successfully - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:58:48 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy
+
+16-01-2025T13:58:48 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:48 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:58:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:58:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:59 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:59:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy (1)" time="21.918" classname="Test Cases/Web/WTC1 - Login user successfully - Copy (1)" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:59:11 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy (1): Test Cases/Web/WTC1 - Login user successfully - Copy (1)
+
+16-01-2025T13:59:11 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:59:11 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:59:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:59:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:59:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:59:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:59:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:59:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:59:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-01-2025T13:56:53 - [TEST_SUITE][PASSED] - ATS1 - Login page test suite: Test Cases/Web/WTC1 - Login user successfully - Copy (1)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="ATS1 - Login page test suite - Copy" tests="8" failures="0" errors="0" time="151.059" skipped="0" timestamp="16-01-2025T13:56:58" hostname="thuy - thuy-Modern-14-B11MOU" id="Test Suites/Web/ATS1 - Login page test suite - Copy">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135643/Web/ATS1 - Login page test suite - Copy/20250116_135646"/>
+         <property name="logFiles" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135643/Web/ATS1 - Login page test suite - Copy/20250116_135646/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thuy - thuy-Modern-14-B11MOU"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Firefox 133.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="8e50899f-d3ec-4c4e-b0b4-a1f804d8820a"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy" time="16.809" classname="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:56:58 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy
+
+16-01-2025T13:56:58 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:56:58 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:56:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:57:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:10 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:57:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy (2)" time="17.337" classname="Test Cases/Web/WTC1 - Login user successfully - Copy (2)" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:57:15 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy (2): Test Cases/Web/WTC1 - Login user successfully - Copy (2)
+
+16-01-2025T13:57:15 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:15 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:57:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:57:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:57:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy" time="19.782" classname="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:57:32 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy - Copy
+
+16-01-2025T13:57:32 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:32 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:57:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:57:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:45 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:57:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:57:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:57:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:57:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1)" time="18.673" classname="Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1)" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:57:52 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1): Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1)
+
+16-01-2025T13:57:52 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:57:52 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:57:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:58:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:05 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:58:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy" time="26.09" classname="Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:58:11 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy
+
+16-01-2025T13:58:11 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:11 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:58:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:58:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:30 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:58:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully" time="16.656" classname="Test Cases/Web/WTC1 - Login user successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:58:37 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully: Test Cases/Web/WTC1 - Login user successfully
+
+16-01-2025T13:58:37 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:37 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:58:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:58:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:47 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:58:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:58:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:58:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:58:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy" time="20.868" classname="Test Cases/Web/WTC1 - Login user successfully - Copy" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:58:53 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy
+
+16-01-2025T13:58:53 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:58:53 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:58:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:59:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:59:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:59:09 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:59:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:59:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:59:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:59:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/WTC1 - Login user successfully - Copy (1)" time="14.715" classname="Test Cases/Web/WTC1 - Login user successfully - Copy (1)" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:59:14 - [TEST_CASE][PASSED] - Test Cases/Web/WTC1 - Login user successfully - Copy (1): Test Cases/Web/WTC1 - Login user successfully - Copy (1)
+
+16-01-2025T13:59:14 - [TEST_STEP][PASSED] - openBrowser(webBaseUrl + "/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:59:14 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+16-01-2025T13:59:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-01-2025T13:59:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+16-01-2025T13:59:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:59:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Username_username'
+
+16-01-2025T13:59:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:59:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web/LoginPage_OrangeHRM/input_Password_password'
+
+16-01-2025T13:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web/LoginPage_OrangeHRM/button_Login")): Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/LoginPage_OrangeHRM/button_Login' is clicked on
+
+16-01-2025T13:59:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web/HomePage_OrangeHRM/span_manda user"), 10): Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web/HomePage_OrangeHRM/span_manda user' is present
+
+16-01-2025T13:59:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-01-2025T13:59:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-01-2025T13:56:58 - [TEST_SUITE][PASSED] - ATS1 - Login page test suite - Copy: Test Cases/Web/WTC1 - Login user successfully - Copy (1)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

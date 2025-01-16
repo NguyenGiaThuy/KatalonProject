@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that valid user will be logged in successfully</description>
+   <name>WTC1 - Login user successfully - Copy (1)</name>
+   <tag>Web</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4930c29-a0cb-4353-97b5-0720a0870db6</testCaseGuid>
+</TestCaseEntity>

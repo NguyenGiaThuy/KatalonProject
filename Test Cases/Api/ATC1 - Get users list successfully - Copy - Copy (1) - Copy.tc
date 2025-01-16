@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the GET method gets users list successfully</description>
+   <name>ATC1 - Get users list successfully - Copy - Copy (1) - Copy</name>
+   <tag>Api</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>323d9001-2680-4b8b-9da8-0bbd4145299b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d7de22d-5c81-42f3-8d70-fd4faaf2f744</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cee94df7-9b23-4bc1-9713-9d1cea25df26</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>5d7de22d-5c81-42f3-8d70-fd4faaf2f744</id>
+      <masked>false</masked>
+      <name>pageNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>cee94df7-9b23-4bc1-9713-9d1cea25df26</id>
+      <masked>false</masked>
+      <name>pageSize</name>
+   </variable>
+</TestCaseEntity>

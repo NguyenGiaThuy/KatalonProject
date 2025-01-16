@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATS1 - GET method test suite,,,,16-01-2025 10:30:58,16-01-2025 10:31:00,2.094s,PASSED
+,,,,,,,
+Test Cases/Api/ATC1 - Get users list successfully,,Verify that the GET method gets users list successfully,Api,16-01-2025 10:30:58,16-01-2025 10:30:59,1.548s,PASSED
+"response = sendRequest(findTestObject(""Api/Get Users List"", [""pageNumber"":pageNumber, ""pageSize"":pageSize]))",,,,16-01-2025 10:30:58,16-01-2025 10:30:59,1.399s,PASSED
+assert getResponseStatusCode(response) == 200,,,,16-01-2025 10:30:59,16-01-2025 10:30:59,0.010s,PASSED
+,,,,,,,
+Test Cases/Api/ATC2 - Get user by id successfully,,Verify that the GET method with valid id will get user successfully.,Api,16-01-2025 10:30:59,16-01-2025 10:30:59,0.110s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":1]))",,,,16-01-2025 10:30:59,16-01-2025 10:30:59,0.071s,PASSED
+assert getResponseStatusCode(response) == 200,,,,16-01-2025 10:30:59,16-01-2025 10:30:59,0.002s,PASSED
+,,,,,,,
+Test Cases/Api/ATC2 - Get user by id successfully,,Verify that the GET method with valid id will get user successfully.,Api,16-01-2025 10:30:59,16-01-2025 10:31:00,0.238s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":1]))",,,,16-01-2025 10:31:00,16-01-2025 10:31:00,0.227s,PASSED
+assert getResponseStatusCode(response) == 200,,,,16-01-2025 10:31:00,16-01-2025 10:31:00,0.002s,PASSED
+,,,,,,,
+Test Cases/Api/ATC2 - Get user by id successfully,,Verify that the GET method with valid id will get user successfully.,Api,16-01-2025 10:31:00,16-01-2025 10:31:00,0.078s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Api/Get User By Id"", [""id"":1]))",,,,16-01-2025 10:31:00,16-01-2025 10:31:00,0.072s,PASSED
+assert getResponseStatusCode(response) == 200,,,,16-01-2025 10:31:00,16-01-2025 10:31:00,0.001s,PASSED

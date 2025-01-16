@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ATS1 - GET method test suite" time="4.423" tests="7" failures="0" errors="0">
+   <testsuite name="ATS1 - GET method test suite" tests="7" failures="0" errors="0" time="4.423" skipped="0" timestamp="16-01-2025T13:53:59" hostname="thuy - thuy-Modern-14-B11MOU" id="Test Suites/Api/ATS1 - GET method test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351"/>
+         <property name="logFiles" value="/home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thuy - thuy-Modern-14-B11MOU"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+      </properties>
+      <testcase name="Test Cases/Api/ATC1 - Get users list successfully" time="2.073" classname="Test Cases/Api/ATC1 - Get users list successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:53:59 - [TEST_CASE][PASSED] - Test Cases/Api/ATC1 - Get users list successfully: Test Cases/Api/ATC1 - Get users list successfully
+
+16-01-2025T13:53:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Api/Get Users List", ["pageNumber":pageNumber, "pageSize":pageSize])): Send request successfully
+
+16-01-2025T13:54:01 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/requests/main/0.har
+
+16-01-2025T13:54:01 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T13:54:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-01-2025T13:54:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC2 - Get user by id successfully" time="0.136" classname="Test Cases/Api/ATC2 - Get user by id successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:54:01 - [TEST_CASE][PASSED] - Test Cases/Api/ATC2 - Get user by id successfully: Test Cases/Api/ATC2 - Get user by id successfully
+
+16-01-2025T13:54:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Api/Get User By Id", ["id":1])): Send request successfully
+
+16-01-2025T13:54:01 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/requests/main/1.har
+
+16-01-2025T13:54:01 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T13:54:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-01-2025T13:54:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC2 - Get user by id successfully" time="0.1" classname="Test Cases/Api/ATC2 - Get user by id successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:54:01 - [TEST_CASE][PASSED] - Test Cases/Api/ATC2 - Get user by id successfully: Test Cases/Api/ATC2 - Get user by id successfully
+
+16-01-2025T13:54:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Api/Get User By Id", ["id":1])): Send request successfully
+
+16-01-2025T13:54:01 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/requests/main/2.har
+
+16-01-2025T13:54:01 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T13:54:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-01-2025T13:54:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC2 - Get user by id successfully" time="0.109" classname="Test Cases/Api/ATC2 - Get user by id successfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:54:02 - [TEST_CASE][PASSED] - Test Cases/Api/ATC2 - Get user by id successfully: Test Cases/Api/ATC2 - Get user by id successfully
+
+16-01-2025T13:54:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Api/Get User By Id", ["id":1])): Send request successfully
+
+16-01-2025T13:54:02 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/requests/main/3.har
+
+16-01-2025T13:54:02 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T13:54:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-01-2025T13:54:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC3 - Get user by id unsuccessfully" time="0.665" classname="Test Cases/Api/ATC3 - Get user by id unsuccessfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:54:02 - [TEST_CASE][PASSED] - Test Cases/Api/ATC3 - Get user by id unsuccessfully: Test Cases/Api/ATC3 - Get user by id unsuccessfully
+
+16-01-2025T13:54:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Api/Get User By Id", ["id":id])): Send request successfully
+
+16-01-2025T13:54:02 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/requests/main/4.har
+
+16-01-2025T13:54:02 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T13:54:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+16-01-2025T13:54:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC3 - Get user by id unsuccessfully" time="0.604" classname="Test Cases/Api/ATC3 - Get user by id unsuccessfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:54:02 - [TEST_CASE][PASSED] - Test Cases/Api/ATC3 - Get user by id unsuccessfully: Test Cases/Api/ATC3 - Get user by id unsuccessfully
+
+16-01-2025T13:54:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Api/Get User By Id", ["id":id])): Send request successfully
+
+16-01-2025T13:54:03 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/requests/main/5.har
+
+16-01-2025T13:54:03 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T13:54:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+16-01-2025T13:54:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Api/ATC3 - Get user by id unsuccessfully" time="0.541" classname="Test Cases/Api/ATC3 - Get user by id unsuccessfully" status="PASSED">
+         <system-out><![CDATA[16-01-2025T13:54:03 - [TEST_CASE][PASSED] - Test Cases/Api/ATC3 - Get user by id unsuccessfully: Test Cases/Api/ATC3 - Get user by id unsuccessfully
+
+16-01-2025T13:54:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Api/Get User By Id", ["id":id])): Send request successfully
+
+16-01-2025T13:54:03 - [MESSAGE][INFO] - HAR: /home/thuy/Downloads/katalon-projects/FirstTestProject/Reports/20250116_135350/Api/ATS1 - GET method test suite/20250116_135351/requests/main/6.har
+
+16-01-2025T13:54:03 - [MESSAGE][PASSED] - Send request successfully
+
+16-01-2025T13:54:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+16-01-2025T13:54:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-01-2025T13:53:59 - [TEST_SUITE][PASSED] - ATS1 - GET method test suite: Test Cases/Api/ATC3 - Get user by id unsuccessfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

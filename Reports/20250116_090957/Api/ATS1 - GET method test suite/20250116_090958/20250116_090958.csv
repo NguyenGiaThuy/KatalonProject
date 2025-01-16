@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATS1 - GET method test suite,,,,16-01-2025 09:10:07,16-01-2025 09:10:09,2.313s,PASSED
+,,,,,,,
+Test Cases/Api/ATC1 - Get users list successfully,,Verify that the GET method gets users list successfully,Api,16-01-2025 09:10:07,16-01-2025 09:10:08,0.983s,PASSED
+"response = sendRequest(findTestObject(""Api/Get Users List"", [""pageNumber"":pageNumber, ""pageSize"":pageSize]))",,,,16-01-2025 09:10:07,16-01-2025 09:10:08,0.865s,PASSED
+assert getResponseStatusCode(response) == 200,,,,16-01-2025 09:10:08,16-01-2025 09:10:08,0.006s,PASSED
+,,,,,,,
+Test Cases/Api/ATC1 - Get users list successfully,,Verify that the GET method gets users list successfully,Api,16-01-2025 09:10:08,16-01-2025 09:10:08,0.621s,PASSED
+"response = sendRequest(findTestObject(""Api/Get Users List"", [""pageNumber"":pageNumber, ""pageSize"":pageSize]))",,,,16-01-2025 09:10:08,16-01-2025 09:10:08,0.609s,PASSED
+assert getResponseStatusCode(response) == 200,,,,16-01-2025 09:10:08,16-01-2025 09:10:08,0.001s,PASSED
+,,,,,,,
+Test Cases/Api/ATC1 - Get users list successfully,,Verify that the GET method gets users list successfully,Api,16-01-2025 09:10:08,16-01-2025 09:10:09,0.612s,PASSED
+"response = sendRequest(findTestObject(""Api/Get Users List"", [""pageNumber"":pageNumber, ""pageSize"":pageSize]))",,,,16-01-2025 09:10:08,16-01-2025 09:10:09,0.605s,PASSED
+assert getResponseStatusCode(response) == 200,,,,16-01-2025 09:10:09,16-01-2025 09:10:09,0.000s,PASSED

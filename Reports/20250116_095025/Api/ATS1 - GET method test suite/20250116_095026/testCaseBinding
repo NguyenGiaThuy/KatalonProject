@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Api/ATC1 - Get users list successfully","testCaseId":"Test Cases/Api/ATC1 - Get users list successfully","iterationVariableName":"","bindedValues":{"pageNumber":"\u00271\u0027","pageSize":"\u00271\u0027"}}
+{"testCaseName":"Test Cases/Api/ATC1 - Get users list successfully","testCaseId":"Test Cases/Api/ATC1 - Get users list successfully","iterationVariableName":"","bindedValues":{"pageNumber":"\u002710\u0027","pageSize":"\u00271\u0027"}}
+{"testCaseName":"Test Cases/Api/ATC1 - Get users list successfully","testCaseId":"Test Cases/Api/ATC1 - Get users list successfully","iterationVariableName":"","bindedValues":{"pageNumber":"\u00271\u0027","pageSize":"\u002710\u0027"}}
+{"testCaseName":"Test Cases/Api/ATC2 - Get user by id successfully","testCaseId":"Test Cases/Api/ATC2 - Get user by id successfully","iterationVariableName":"","bindedValues":{"id":"\u00271\u0027"}}
+{"testCaseName":"Test Cases/Api/ATC2 - Get user by id successfully","testCaseId":"Test Cases/Api/ATC2 - Get user by id successfully","iterationVariableName":"","bindedValues":{"id":"\u00272\u0027"}}
+{"testCaseName":"Test Cases/Api/ATC2 - Get user by id successfully","testCaseId":"Test Cases/Api/ATC2 - Get user by id successfully","iterationVariableName":"","bindedValues":{"id":"\u00273\u0027"}}

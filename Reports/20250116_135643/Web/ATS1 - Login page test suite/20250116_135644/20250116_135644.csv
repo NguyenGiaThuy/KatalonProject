@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATS1 - Login page test suite,Firefox 133.0,,,16-01-2025 13:56:53,16-01-2025 13:59:32,2m - 39.279s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully - Copy - Copy - Copy,Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:56:53,16-01-2025 13:57:13,19.947s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:56:53,16-01-2025 13:57:02,8.870s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:57:02,16-01-2025 13:57:04,1.931s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:57:04,16-01-2025 13:57:05,0.345s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:57:05,16-01-2025 13:57:12,7.520s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:57:12,16-01-2025 13:57:12,0.279s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:57:12,16-01-2025 13:57:13,0.850s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully - Copy (2),Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:57:13,16-01-2025 13:57:32,18.538s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:57:13,16-01-2025 13:57:24,10.887s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:57:24,16-01-2025 13:57:26,1.795s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:57:26,16-01-2025 13:57:26,0.267s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:57:26,16-01-2025 13:57:28,2.092s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:57:28,16-01-2025 13:57:31,2.594s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:57:31,16-01-2025 13:57:32,0.870s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully - Copy - Copy,Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:57:32,16-01-2025 13:57:50,18.311s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:57:32,16-01-2025 13:57:42,9.966s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:57:42,16-01-2025 13:57:44,2.306s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:57:44,16-01-2025 13:57:44,0.280s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:57:44,16-01-2025 13:57:49,4.463s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:57:49,16-01-2025 13:57:49,0.538s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:57:49,16-01-2025 13:57:50,0.742s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully - Copy - Copy (1),Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:57:50,16-01-2025 13:58:08,17.684s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:57:50,16-01-2025 13:58:00,9.555s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:58:00,16-01-2025 13:58:02,2.299s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:58:02,16-01-2025 13:58:02,0.328s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:58:02,16-01-2025 13:58:04,2.042s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:58:04,16-01-2025 13:58:07,2.672s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:58:07,16-01-2025 13:58:08,0.773s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully - Copy (1) - Copy,Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:58:08,16-01-2025 13:58:28,20.382s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:58:08,16-01-2025 13:58:16,7.783s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:58:16,16-01-2025 13:58:17,1.595s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:58:17,16-01-2025 13:58:17,0.280s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:58:17,16-01-2025 13:58:24,6.196s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:58:24,16-01-2025 13:58:27,3.725s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:58:27,16-01-2025 13:58:28,0.787s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully,Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:58:28,16-01-2025 13:58:48,19.951s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:58:28,16-01-2025 13:58:39,11.053s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:58:39,16-01-2025 13:58:41,2.126s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:58:41,16-01-2025 13:58:42,0.266s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:58:42,16-01-2025 13:58:47,5.221s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:58:47,16-01-2025 13:58:47,0.476s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:58:47,16-01-2025 13:58:48,0.787s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully - Copy,Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:58:48,16-01-2025 13:59:10,22.412s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:58:48,16-01-2025 13:58:57,9.305s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:58:57,16-01-2025 13:58:59,1.754s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:58:59,16-01-2025 13:58:59,0.280s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:58:59,16-01-2025 13:59:09,10.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:59:09,16-01-2025 13:59:10,0.255s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:59:10,16-01-2025 13:59:10,0.784s,PASSED
+,,,,,,,
+Test Cases/Web/WTC1 - Login user successfully - Copy (1),Firefox 133.0,Verify that valid user will be logged in successfully,Web,16-01-2025 13:59:11,16-01-2025 13:59:32,21.918s,PASSED
+"openBrowser(webBaseUrl + ""/web/index.php/auth/login"")",Firefox 133.0,,,16-01-2025 13:59:11,16-01-2025 13:59:25,14.189s,PASSED
+"setText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 133.0,,,16-01-2025 13:59:25,16-01-2025 13:59:27,2.208s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 133.0,,,16-01-2025 13:59:27,16-01-2025 13:59:27,0.280s,PASSED
+"click(findTestObject(""Object Repository/Web/LoginPage_OrangeHRM/button_Login""))",Firefox 133.0,,,16-01-2025 13:59:27,16-01-2025 13:59:29,1.650s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web/HomePage_OrangeHRM/span_manda user""), 10)",Firefox 133.0,,,16-01-2025 13:59:29,16-01-2025 13:59:32,2.841s,PASSED
+closeBrowser(),Firefox 133.0,,,16-01-2025 13:59:32,16-01-2025 13:59:32,0.732s,PASSED
